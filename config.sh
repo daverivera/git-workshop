@@ -3,6 +3,7 @@ echo "Downloading pip..."
 wget https://bootstrap.pypa.io/get-pip.py
 echo "Installing pip.."
 python get-pip.py
+rm /get-pip.py
 echo "pip installed"
 echo ""
 

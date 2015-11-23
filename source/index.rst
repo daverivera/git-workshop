@@ -3,14 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Git Workshop's documentation!
+Welcome to the Git Workshop
 ========================================
+
+:Release: |version|
+:Date: |today|
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :numbered:
+   :maxdepth: 4
 
+   intro
+   easy
+   noteasy
+   hard
 
 
 Indices and tables
@@ -19,4 +27,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

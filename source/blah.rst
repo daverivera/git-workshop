@@ -49,4 +49,32 @@ Safely stored and indexed within the local database.
 Tree structure
 ==============
 
-git-scm.com/book/en/v1/Git-Internals-Plumbing-and-Porcelain
+``.git`` content
+
+.. code-block:: python
+  :emphasize-lines: 1,3,6-9
+
+  HEAD
+  branches/
+  config
+  description
+  hooks/
+  index
+  info/
+  objects/
+  refs/
+
+**Basic files**
+
+* ``config`` file contains your project-specific configuration options.
+* ``info`` directory keeps a global exclude file for ignored patterns that you don’t want to track in a .gitignore file.
+
+**Important files**
+
+* ``HEAD`` file points to the branch you currently have checked out.
+* ``index`` file is where Git stores your staging area information.
+* ``objects`` directory stores all the content for your database.
+* ``refs`` directory stores pointers into commit objects in that data (branches).
+
++ `More on git internals <http://git-scm.com/book/en/v1/Git-Internals-Plumbing-and-Porcelain>`_
++ `Git from the bits up (Youtube) <https://www.youtube.com/watch?v=MYP56QJpDr4>`_

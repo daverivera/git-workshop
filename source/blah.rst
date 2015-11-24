@@ -18,18 +18,24 @@ Snapshots, Not Differences
 Distribuido vs Centralizado
 ---------------------------
 
-States
-======
+.. image:: _static/centralized.svg
+.. image:: _static/distributed.svg
 
-Working tree
-------------
+The 3 States of a File
+======================
 
-Index
------
+.. image:: _static/states.png
 
-HEAD
-----
+Working tree (Modified)
+-----------------------
 
+Index (Staged)
+--------------
+
+HEAD (Commited)
+---------------
+
+.. image:: _static/areas.png
 
 Tree structure
 ==============

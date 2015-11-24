@@ -44,6 +44,6 @@ config
 origin
 ------
 
-global
-------
+global (Name & Email)
+---------------------
 

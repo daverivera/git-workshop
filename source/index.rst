@@ -16,10 +16,7 @@ Contents:
    :maxdepth: 4
 
    blah
-   easy
-   noteasy
-   hard
-
+   basics
 
 Indices and tables
 ==================

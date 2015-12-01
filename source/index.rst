@@ -17,6 +17,7 @@ Contents:
 
    blah
    basics
+   noteasy
 
 Indices and tables
 ==================

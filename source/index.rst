@@ -18,6 +18,7 @@ Contents:
    blah
    basics
    noteasy
+   unnecessary
 
 Indices and tables
 ==================

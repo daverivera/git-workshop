@@ -19,6 +19,7 @@ Contents:
    basics
    noteasy
    unnecessary
+   tldr
 
 Indices and tables
 ==================
